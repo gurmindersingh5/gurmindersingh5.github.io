@@ -17,6 +17,6 @@ function startLoading() {
     setTimeout(function() {
         loader.style.display = 'none';
         // Replace 'your-github-repo-url' with the actual URL of your GitHub repo README.md
-        window.location.href = 'https://github.com/gurmindersingh5/gurmindersingh5.github.io/resume';
+        window.location.href = 'https://github.com/gurmindersingh5/resume';
     }, 1000); // 1000ms = 1 second
 }
