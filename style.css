@@ -6,10 +6,37 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
+    flex-direction: column;
 }
 
-#loader {
-    text-align: center;
+#animation-container {
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mouse {
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    animation: mouseMove 2s ease-in-out forwards;
+}
+
+@keyframes mouseMove {
+    0% { top: 40%; left: 40%; }
+    100% { top: 45%; left: 45%; }
+}
+
+#view-resume-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .spinner {
@@ -18,7 +45,7 @@ body, html {
     border-top: 16px solid #3498db;
     width: 120px;
     height: 120px;
-    animation: spin 2s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -26,14 +53,12 @@ body, html {
     100% { transform: rotate(360deg); }
 }
 
-#content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
+#content img {
+    width: 80%;
+    margin: 20px 0;
+}
+
+#loader, #content {
+    display: none;
+    text-align: center;
 }
