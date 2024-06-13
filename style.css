@@ -54,11 +54,14 @@ body, html {
 }
 
 #content img {
-    width: 80%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin: 20px 0;
 }
 
 #loader, #content {
     display: none;
     text-align: center;
+    width: 100%;
 }
