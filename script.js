@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const mouse = document.getElementById('mouse');
+    const hand = document.getElementById('hand');
     const viewResumeBtn = document.getElementById('view-resume-btn');
 
-    mouse.addEventListener('animationend', function() {
+    hand.addEventListener('animationend', function() {
         viewResumeBtn.click();
     });
 });
