@@ -22,12 +22,12 @@ body, html {
     height: 50px;
     position: absolute;
     top: 40%;
-    left: 20%;
+    left: 10%;
     animation: handMove 2s ease-in-out forwards;
 }
 
 @keyframes handMove {
-    0% { top: 40%; left: 20%; }
+    0% { top: 40%; left: 10%; }
     100% { top: 50%; left: 50%; transform: translate(-50%, -50%); }
 }
 
