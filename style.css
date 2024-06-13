@@ -25,13 +25,13 @@ body, html {
     background-color: #000;
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 20%;
     animation: mouseMove 2s ease-in-out forwards;
 }
 
 @keyframes mouseMove {
-    0% { top: 40%; left: 40%; }
-    100% { top: 45%; left: 45%; }
+    0% { top: 40%; left: 20%; }
+    100% { top: 50%; left: 50%; transform: translate(-50%, -50%); }
 }
 
 #view-resume-btn {
@@ -54,10 +54,10 @@ body, html {
     100% { transform: rotate(360deg); }
 }
 
-#content {
-    width: 90%;
-    max-width: 90%;
-    height: 100vh;
+#content img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     margin: 20px 0;
 }
 
