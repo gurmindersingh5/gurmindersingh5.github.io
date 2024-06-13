@@ -9,10 +9,12 @@
 <body>
     <div id="loader">
         <div class="spinner"></div>
-        <p>Loading the resume...</p>
+        <p>Loading your resume...</p>
     </div>
     <div id="content" style="display: none;">
-        <iframe src="Gurminder_resume.pdf" width="100%" height="100%"></iframe>
+        <object data="resume.pdf" type="application/pdf" width="100%" height="100%">
+            <p>It appears you don't have a PDF plugin for this browser. No biggie... you can <a href="resume.pdf">click here to download the PDF file.</a></p>
+        </object>
     </div>
 
     <script src="script.js"></script>
