@@ -21,9 +21,9 @@ body, html {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 50%;
-    left: 10%;
-    animation: handMove 1s ease-in-out forwards;
+    top: 60%;
+    left: 0%;
+    animation: handMove 0.8s ease-in-out forwards;
 }
 
 @keyframes handMove {
