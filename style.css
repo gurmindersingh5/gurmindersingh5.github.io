@@ -53,16 +53,3 @@ body, html {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-#content img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-}
-
-#loader, #content {
-    display: none;
-    text-align: center;
-    width: 100%;
-}
